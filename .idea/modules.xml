@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/abstract-pkce.iml" filepath="$PROJECT_DIR$/.idea/abstract-pkce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pkce-hmac-sha256-node/.idea/pkce-hmac-sha256-node.iml" filepath="$PROJECT_DIR$/../pkce-hmac-sha256-node/.idea/pkce-hmac-sha256-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simple-pkce-node/.idea/simple-pkce-node.iml" filepath="$PROJECT_DIR$/../simple-pkce-node/.idea/simple-pkce-node.iml" />
+    </modules>
+  </component>
+</project>
