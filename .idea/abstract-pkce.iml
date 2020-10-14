@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pkce-hmac-sha256-node" />
     <orderEntry type="module" module-name="simple-pkce-node" />
+    <orderEntry type="module" module-name="simple-pkce-sha256-browser" />
   </component>
 </module>

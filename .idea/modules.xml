@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/abstract-pkce.iml" filepath="$PROJECT_DIR$/.idea/abstract-pkce.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pkce-hmac-sha256-node/.idea/pkce-hmac-sha256-node.iml" filepath="$PROJECT_DIR$/../pkce-hmac-sha256-node/.idea/pkce-hmac-sha256-node.iml" />
       <module fileurl="file://$PROJECT_DIR$/../simple-pkce-node/.idea/simple-pkce-node.iml" filepath="$PROJECT_DIR$/../simple-pkce-node/.idea/simple-pkce-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simple-pkce-sha256-browser/.idea/simple-pkce-sha256-browser.iml" filepath="$PROJECT_DIR$/../simple-pkce-sha256-browser/.idea/simple-pkce-sha256-browser.iml" />
     </modules>
   </component>
 </project>

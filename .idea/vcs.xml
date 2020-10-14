@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../simple-pkce-node" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../simple-pkce-sha256-browser" vcs="Git" />
   </component>
 </project>
