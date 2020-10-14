@@ -3,7 +3,7 @@ export interface PKCEChallenge {
   challenge: string
 }
 
-export interface PKCEService <T extends (Promise<string> | string)> {
+export interface PKCEHelper <T extends (Promise<string> | string)> {
   getChallenge(verifier: string): T extends Promise<string> ? Promise<string> : string,
   generateChallenge(verifierLength: number): T extends Promise<string> ? Promise<PKCEChallenge> : PKCEChallenge
 }
@@ -16,8 +16,8 @@ const POSSIBLE_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123
 const { length: possibleCharsLength } = POSSIBLE_CHARS
 const getPossibleChar: (position: number) => string = String.prototype.charAt.bind(POSSIBLE_CHARS)
 
-export function createPKCEService<T extends (Promise<string> | string)>(
-  getChallenge: PKCEService<T>['getChallenge'], buildVerifier: VerifierBuilder): PKCEService<T> {
+export function createPKCEHelper<T extends (Promise<string> | string)>(
+  getChallenge: PKCEHelper<T>['getChallenge'], buildVerifier: VerifierBuilder): PKCEHelper<T> {
   return {
     getChallenge,
     generateChallenge(verifierLength: number): T extends Promise<string> ? Promise<PKCEChallenge> : PKCEChallenge {
