@@ -1,6 +1,6 @@
 {
   "name": "abstract-pkce",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Abstract PKCE service factory with ability to set challenge and random values getters",
   "main": "dist/index.js",
   "scripts": {
